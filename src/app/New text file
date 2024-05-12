@@ -1,0 +1,12 @@
+mongod --replSet prisma \
+       --port 27017 \
+       --dbpath /var/lib/mongodb \
+       --authenticationDatabase "admin" \
+       --username "bersen" \
+       --password "bersen"
+       
+       
+mongod --replSet prisma \
+       --port 27017 \
+       --dbpath /var/lib/mongodb \
+
